@@ -39,19 +39,19 @@ export default {
         token: process.env.SANITY_TOKEN,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: 'UA-142485528-8',
-    //   },
-    // },
-    // {
-    //     resolve: `gatsby-plugin-hotjar`,
-    //     options: {
-    //       includeInDevelopment: true, // optional parameter to include script in development
-    //       id: 2159103,
-    //       sv: 6,
-    //     },
-    //   },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-142485528-8',
+      },
+    },
+    {
+        resolve: `gatsby-plugin-hotjar`,
+        options: {
+          includeInDevelopment: true, // optional parameter to include script in development
+          id: 2159103,
+          sv: 6,
+        },
+      },
   ],
 };
