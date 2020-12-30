@@ -55,18 +55,18 @@ const NavStyles = styled.nav`
 `;
 
 export const Nav = () => {
-    let currentUrl = typeof window !== 'undefined' ? window.location.href : '';
-    if(currentUrl){
-        currentUrl = currentUrl.split('#')[1];
-    }
+    // let currentUrl = typeof window !== 'undefined' ? window.location.href : '';
+    // if(currentUrl){
+    //     currentUrl = currentUrl.split('#')[1];
+    // }
 
-    useEffect(() => {
-        smoothscroll.polyfill();
-    }, []);
+    // useEffect(() => {
+    //     smoothscroll.polyfill();
+    // }, []);
 
-    const scrollIntoView = (id) => {
-        document.getElementById(`${id}`).scrollIntoView({ behavior: 'smooth' });
-    }
+    // const scrollIntoView = (id) => {
+    //     document.getElementById(`${id}`).scrollIntoView({ behavior: 'smooth' });
+    // }
 
     return (
         <NavStyles>
@@ -74,9 +74,12 @@ export const Nav = () => {
                 <button id="name">Tyler Henry</button>
             </div>
             <div className="in-page-buttons">
-                <button onClick={e => scrollIntoView('about')}>About</button>
-                <button onClick={e => scrollIntoView('projects')}>Projects</button>
-                <button onClick={e => scrollIntoView('contact')}>Contact</button>
+                <button type="button">About</button>
+                <button type="button">Projects</button>
+                <button type="button">Contact</button>
+                {/* <button type="button" onClick={e => scrollIntoView('about')}>About</button>
+                <button type="button" onClick={e => scrollIntoView('projects')}>Projects</button>
+                <button type="button" onClick={e => scrollIntoView('contact')}>Contact</button> */}
                 <a id="resume" target="_blank" href="https://res.cloudinary.com/tyler24henry/image/upload/v1609345768/tylerhenryresume.pdf" download="resume">Resume</a>
             </div>
         </NavStyles>
