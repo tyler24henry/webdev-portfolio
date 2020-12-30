@@ -233,7 +233,6 @@ export const Project = ({ project, index }) => {
     const isFirstProjectImage = projectImageIndex <= 0;
 
     const isEven = index % 2 === 0 || index === 0;
-    console.log(isEven);
     return (
         <ProjectStyles className={isEven ? 'even' : 'odd'}>
             <div className="project-image-wrapper">
@@ -280,7 +279,9 @@ export const Project = ({ project, index }) => {
                     ))}
                 </div>
                 <div className="links">
-                    <a id="github" href={project.githubLink} target="_blank"><FiGithub /></a>
+                    {project.githubLink && (
+                        <a id="github" href={project.githubLink} target="_blank"><FiGithub /></a>
+                    )}
                     <a href={project.websiteLink} target="_blank"><FiExternalLink /></a>
                 </div>
             </div>
