@@ -14,9 +14,9 @@ const HomeStyles = styled.div`
 export const Home = ({ projects }) => {
     return (
         <HomeStyles>
-            {/* <div id="introduction-wrapper">
+            <div id="introduction-wrapper">
                 <Introduction />
-            </div> */}
+            </div>
             <div id="about-wrapper">
                 <About />
             </div>
