@@ -38,7 +38,7 @@ export default function Layout({ children }) {
           {children}
           <RightNav />
         </BodyStyles>
-        <Footer />
+        {/* <Footer /> */}
       </ContentStyles>
     </SiteBorderStyles>
     </>
