@@ -16,7 +16,7 @@ const SiteBorderStyles = styled.div`
 `;
 
 const ContentStyles = styled.div`
- 
+
 `;
 
 const BodyStyles = styled.div`
