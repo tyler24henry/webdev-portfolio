@@ -16,7 +16,7 @@ export const Home = ({ projects }) => {
         <HomeStyles>
             {/* <div id="introduction-wrapper">
                 <Introduction />
-            </div>
+            </div> */}
             <div id="about-wrapper">
                 <About />
             </div>
@@ -25,11 +25,7 @@ export const Home = ({ projects }) => {
             </div>
             <div id="contact-wrapper">
                 <Contact />
-            </div> */}
-            <Introduction />
-            <About />
-            <Projects projects={projects} />
-            <Contact />
+            </div>
         </HomeStyles>
     )
 }
