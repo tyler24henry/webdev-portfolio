@@ -36,10 +36,9 @@ const FourOhFourStyles = styled.div`
         border-radius: 4px;
         padding: 1.2rem 2rem;
         transition: all 0.4s;
+        text-decoration: none;
         &:hover {
             background-color: var(--redTint);
-            color: var(--black);
-            text-decoration: none;
         }
         @media(max-width: 414px){
             margin-top: 2.5rem;

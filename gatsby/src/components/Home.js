@@ -14,18 +14,22 @@ const HomeStyles = styled.div`
 export const Home = ({ projects }) => {
     return (
         <HomeStyles>
-            <div id="introduction">
+            {/* <div id="introduction-wrapper">
                 <Introduction />
             </div>
-            <div id="about">
+            <div id="about-wrapper">
                 <About />
             </div>
-            <div id="projects">
+            <div id="projects-wrapper">
                 <Projects projects={projects} />
             </div>
-            <div id="contact">
+            <div id="contact-wrapper">
                 <Contact />
-            </div>
+            </div> */}
+            <Introduction />
+            <About />
+            <Projects projects={projects} />
+            <Contact />
         </HomeStyles>
     )
 }
