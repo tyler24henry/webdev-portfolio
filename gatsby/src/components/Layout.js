@@ -1,7 +1,6 @@
 import React from 'react';
 import 'normalize.css';
 import { Nav } from './Nav';
-import { Footer } from './Footer';
 import styled from 'styled-components';
 import GlobalStyles from '../styles/GlobalStyles';
 import Typography from '../styles/Typography';
