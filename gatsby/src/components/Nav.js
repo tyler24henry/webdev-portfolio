@@ -77,7 +77,7 @@ export const Nav = () => {
                 <button type="button" onClick={e => scrollIntoView('about-wrapper')}>About</button>
                 <button type="button" onClick={e => scrollIntoView('projects-wrapper')}>Projects</button>
                 <button type="button" onClick={e => scrollIntoView('contact-wrapper')}>Contact</button>
-                <a id="resume" target="_blank" href="https://res.cloudinary.com/tyler24henry/image/upload/v1609345768/tylerhenryresume.pdf" download="resume">Resume</a>
+                <a id="resume" target="_blank" href="https://res.cloudinary.com/tyler24henry/image/upload/v1609632968/TylerHenryResume.docx_2_ptvg6e.pdf" download="resume">Resume</a>
             </div>
         </NavStyles>
     )

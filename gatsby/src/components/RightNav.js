@@ -39,7 +39,7 @@ export const RightNav = () => {
         <StyledRightNav>
             <div className="fixed">
                 <div className="sideways">
-                    <a className="email" href="mailto:tyler.henry2442@gmail.com">tyler.henry2442@gmail.com</a>
+                    <a className="email" href="mailto:tyler.henry2442@gmail.com" target="_blank">tyler.henry2442@gmail.com</a>
                 </div>
                 <div className="line"></div>
             </div>
